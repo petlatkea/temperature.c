@@ -19,8 +19,7 @@ int main()
     case 'f': // hvis (f) så fahrenheit:
     {
       // bed om temp i fahrenheit
-      printf("Indtast temperatur i Fahrenheit: ");
-      float fahr = get_value();
+      float fahr = get_value("Indtast temperatur i Fahrenheit: ");
 
       // lav omregening
       float celsius = fahrenheit_to_celsius(fahr);
@@ -32,8 +31,7 @@ int main()
     case 'c': // hvis (c) så celsius
     {
       // bed om temp i celsius
-      printf("Indtast temperatur i Celsius: ");
-      float celsius = get_value();
+      float celsius = get_value("Indtast temperatur i Celsius: ");
 
       // lav omregning
       float fahr = celsius_to_fahrenheit(celsius);

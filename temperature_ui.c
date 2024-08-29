@@ -14,8 +14,9 @@ void display_menu()
   printf("(x) exit\n");
 }
 
-float get_value()
+float get_value(char *message)
 {
+  printf("%s", message);
   float value;
   scanf("%f", &value);
   return value;
