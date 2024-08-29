@@ -4,6 +4,6 @@ En delvis løsning på øvelsen: [Notion-link](https://petlatkea.notion.site/tem
 
 Se commit-historik for detaljer.
 
-Compile med ```gcc -Wall temperature.c -o temperature```
+Compile den splittede version med ```gcc -Wall temperature.c temperature_ui.c -o temperature```
 
 Testet på Mac (ARM64)
